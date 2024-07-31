@@ -35,7 +35,7 @@ public class BinarySearch {
 		System.out.println("Enter the target element to fetch the index number:");
 		int target = scan.nextInt();
 		
-		System.out.println(targetElementPosition(arr, target));
+		System.out.println("The index no. of the Element in the Array is: " + targetElementPosition(arr, target));
 		scan.close();
 	}
 }
